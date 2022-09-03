@@ -30,4 +30,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 GitHub Repo : https://github.com/cnewing/myReactPortfolio
 
-Site on Netlify:
+Site on Netlify: https://zesty-lebkuchen-925d21.netlify.app/
