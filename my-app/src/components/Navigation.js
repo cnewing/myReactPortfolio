@@ -12,9 +12,10 @@ const Navigation = (props) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="">
-            <Nav.Link href="/">About Me</Nav.Link>
-            <Nav.Link href="">Projects</Nav.Link>
-            <Nav.Link href="">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/#/myReactPortfolio/about">About Me</Nav.Link>
+            <Nav.Link href="/#/myReactPortfolio/project">Projects</Nav.Link>
+            <Nav.Link href="/#/myReactPortfolio/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
