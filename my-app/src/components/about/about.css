@@ -36,3 +36,10 @@
   object-fit: cover;
   overflow: hidden;
 }
+.a-title {
+  font-weight: 400;
+}
+
+.a-text {
+  font-weight: 300;
+}
