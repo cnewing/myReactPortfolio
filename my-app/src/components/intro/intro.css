@@ -1,5 +1,6 @@
 .i {
   display: flex;
+  height: 100vh;
 }
 
 .i-left {
@@ -8,4 +9,50 @@
 
 .i-right {
   flex: 1;
+}
+
+.i-left-wrapper {
+  padding: 50px;
+}
+
+.i-greet {
+  font-size: 30px;
+  font: weight 300px;
+}
+
+.i-name {
+  font-size: 60px;
+}
+
+.i-roles {
+  height: 50px;
+  overflow: hidden;
+}
+
+.i-roles-wrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  75% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+.i-role1 {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: blueviolet;
+  display: flex;
+  align-items: center;
 }
